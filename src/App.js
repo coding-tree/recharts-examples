@@ -1,5 +1,11 @@
 import React from 'react';
-import {BrowserRouter, NavLink, Redirect, Route, Switch} from 'react-router-dom';
+import {
+  BrowserRouter,
+  NavLink,
+  Redirect,
+  Route,
+  Switch,
+} from 'react-router-dom';
 import AreaPage from './components/AreaPage';
 import BarPage from './components/BarPage';
 import ComposedPage from './components/ComposedPage';
@@ -8,6 +14,7 @@ import PiePage from './components/PiePage';
 import RadarPage from './components/RadarPage';
 import RadialPage from './components/RadialPage';
 import ScatterPage from './components/ScatterPage';
+import TreemapPage from './components/TreemapPage';
 
 function App() {
   return (
@@ -37,6 +44,9 @@ function App() {
         <NavLink exact strict to="/scatter">
           Scatter
         </NavLink>
+        <NavLink exact strict to="/treemap">
+          Treemap
+        </NavLink>
       </nav>
 
       <Switch>
@@ -48,6 +58,7 @@ function App() {
         <Route exact strict path="/radar" component={RadarPage}></Route>
         <Route exact strict path="/radial" component={RadialPage}></Route>
         <Route exact strict path="/scatter" component={ScatterPage}></Route>
+        <Route exact strict path="/treemap" component={TreemapPage}></Route>
         <Redirect to="/line"></Redirect>
       </Switch>
     </BrowserRouter>

@@ -15,7 +15,7 @@ const data = [
     name: 'Damian Ospara',
     amountOfMeetings: 17,
     totalScore: 20,
-    lastMonth: 2,
+    lastMonth: 12,
   },
   {
     name: 'Józef Rzadkosz',
@@ -27,25 +27,25 @@ const data = [
     name: 'Emil Sankowski',
     amountOfMeetings: 3,
     totalScore: 5,
-    lastMonth: 2,
+    lastMonth: 4,
   },
   {
     name: 'Kazimierz Bagrowski',
     amountOfMeetings: 2,
     totalScore: 5,
-    lastMonth: 2,
+    lastMonth: 5,
   },
   {
     name: 'Angelika Paterak',
     amountOfMeetings: 14,
     totalScore: 1,
-    lastMonth: 2,
+    lastMonth: 0,
   },
   {
     name: 'Paweł Wojtkiewicz',
     amountOfMeetings: 5,
     totalScore: 15,
-    lastMonth: 2,
+    lastMonth: 12,
   },
   {
     name: 'Jakub Wojtoń',
